@@ -43,7 +43,9 @@ Return
 
 ; bind Ctrl+C, Ctrl+V to mouse buttons
 ~LButton & RButton:: Send ^c
-~MButton & RButton:: Send ^v
+;~MButton & RButton:: Send ^v
+~RButton & LButton:: Send ^v
+~LButton & MButton:: Send ^s
 
 ; bind numpad, cause i don't have a keyboard which has numpad
 ; uer Right alt(same as emojis)
