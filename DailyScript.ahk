@@ -59,3 +59,4 @@ Return
 >!ScrollLock:: Send 8
 >!Pause:: Send 9
 >!BackSpace:: Send 0
+>!Up:: send .
