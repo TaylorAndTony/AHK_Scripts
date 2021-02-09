@@ -23,6 +23,13 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; alt + win + o
 >!#o:: Send OHHHHHHHHHHHHHHHH
 
+
+; hot strings, for git
+::gpom::git push origin main
+::ga.::git add .
+::gstat::git status
+::gcom::git commit -m ""
+
 ; random kaomoji
 >!r:: 
 Run, D:\randomKamoji\run_this.bat
