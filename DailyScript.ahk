@@ -13,19 +13,22 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 >!x:: Send 😁
 >!h:: Send 😏
 >!m:: Send 🐴
->!o:: Send 😮
 >!a:: Send 😫
 >!2:: Send 233333333
+
 ; useful string
 >!t:: Send TaylorAndTony
 >!d:: Send doyijian
+>!o:: Send ohhhhhh
+; alt + win + o
+>!#o:: Send OHHHHHHHHHHHHHHHH
+
 ; random kaomoji
 >!r:: 
 Run, D:\randomKamoji\run_this.bat
 Sleep, 700
 Send ^v
 Return
-
 
 ; -------------------------------------
 ;        Launch area
