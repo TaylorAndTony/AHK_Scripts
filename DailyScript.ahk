@@ -28,7 +28,9 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ::gpom::git push origin main
 ::ga.::git add .
 ::gstat::git status
-::gcom::git commit -m ""
+::gcom::git commit -m "
+::ipcfg::ipconfig
+::mtm::mythirdmail
 
 ; random kaomoji
 >!r:: 
@@ -55,7 +57,13 @@ Return
 ~LButton & RButton:: Send ^c
 ;~MButton & RButton:: Send ^v
 ~RButton & LButton:: Send ^v
+; other operations to perform Ctrl+C, Ctrl+V 
+~LButton & c:: Send ^c
+~LButton & v:: Send ^v
 ~LButton & MButton:: Send ^s
+; Use MButton to perform like Ctrl
+~MButton & s:: Send ^s
+~MButton & r:: Send ^r
 
 ; bind numpad, cause i don't have a keyboard which has numpad
 ; uer Right alt(same as emojis)
