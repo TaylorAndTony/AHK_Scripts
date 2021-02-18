@@ -9,17 +9,14 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; Send often-use emojis
 ; use right alt + letter
 >!n:: Send 🍋
->!k:: Send 😂
 >!x:: Send 😁
 >!h:: Send 😏
->!m:: Send 🐴
 >!a:: Send 😫
 >!2:: Send 233333333
 
 ; useful string
 >!t:: Send TaylorAndTony
 >!d:: Send doyijian
->!o:: Send ohhhhhh
 ; alt + win + o
 >!#o:: Send OHHHHHHHHHHHHHHHH
 
@@ -78,3 +75,14 @@ Return
 >!Pause:: Send 9
 >!BackSpace:: Send 0
 >!Up:: send .
+; use right alt + letter to input nums
+>!,:: send 1
+>!.:: send 2
+>!/:: send 3
+>!k:: send 4
+>!l:: send 5
+>!;:: send 6
+>!i:: send 7
+>!o:: send 8
+>!p:: send 9
+>!m:: send 0
