@@ -24,7 +24,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; hot strings, for git
 ::gpom::git push origin main
 ::ga.::git add .
-::gstat::git status
+::gst::git status
 ::gcom::git commit -m "
 ::ipcfg::ipconfig
 ::mtm::mythirdmail
@@ -63,26 +63,26 @@ Return
 ~MButton & r:: Send ^r
 
 ; bind numpad, cause i don't have a keyboard which has numpad
-; uer Right alt(same as emojis)
->!Delete:: Send 1
->!End:: Send 2
->!PgDn:: Send 3
->!Ins:: Send 4
->!Home:: Send 5
->!PgUp:: Send 6
->!PrintScreen:: Send 7
->!ScrollLock:: Send 8
->!Pause:: Send 9
->!BackSpace:: Send 0
->!Up:: send .
-; use right alt + letter to input nums
->!,:: send 1
->!.:: send 2
->!/:: send 3
->!k:: send 4
->!l:: send 5
->!;:: send 6
->!i:: send 7
->!o:: send 8
->!p:: send 9
->!m:: send 0
+; uer Right Shift(same as emojis)
+>+Delete:: Send 1
+>+End:: Send 2
+>+PgDn:: Send 3
+>+Ins:: Send 4
+>+Home:: Send 5
+>+PgUp:: Send 6
+>+PrintScreen:: Send 7
+>+ScrollLock:: Send 8
+>+Pause:: Send 9
+>+BackSpace:: Send 0
+>+Up:: send .
+; left alt
+<!,:: send 1
+<!.:: send 2
+<!/:: send 3
+<!k:: send 4
+<!l:: send 5
+<!;:: send 6
+<!i:: send 7
+<!o:: send 8
+<!p:: send 9
+<!m:: send 0
