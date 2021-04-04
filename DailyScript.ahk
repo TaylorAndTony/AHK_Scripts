@@ -23,11 +23,17 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 ; hot strings, for git
 ::gpom::git push origin main
+::gpo::git push origin
 ::ga.::git add .
 ::gst::git status
 ::gcom::git commit -m "
 ::ipcfg::ipconfig
 ::mtm::mythirdmail
+::jl::jupyter-lab
+
+; hot string, for useful things
+::pno::13285462173
+::doyi:: doyijian@163.com
 
 ; random kaomoji
 >!r:: 
@@ -58,6 +64,7 @@ Return
 ~LButton & c:: Send ^c
 ~LButton & v:: Send ^v
 ~LButton & MButton:: Send ^s
+~RButton & MButton:: Send ^v
 ; Use MButton to perform like Ctrl
 ~MButton & s:: Send ^s
 ~MButton & r:: Send ^r
