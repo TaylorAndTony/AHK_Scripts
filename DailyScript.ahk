@@ -6,32 +6,28 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; -------------------------------------
 ;        String area
 ; -------------------------------------
-; Send often-use emojis
 ; use right alt + letter
->!n:: Send 🍋
->!x:: Send 😁
->!h:: Send 😏
->!a:: Send 😫
+>!h:: Send hhhhhhh
+>!o:: Send ohhhhhh
 >!2:: Send 233333333
-
-; useful string
+>!c:: Send 艹
 >!t:: Send TaylorAndTony
 >!d:: Send doyijian
+
 ; alt + win + o
 >!#o:: Send OHHHHHHHHHHHHHHHH
 
 
 ; hot strings, for git
-::gpom::git push origin main
+::gpom::git push origin master
 ::gpo::git push origin
 ::ga.::git add .
 ::gst::git status
 ::gcom::git commit -m "
-::ipcfg::ipconfig
+; for other things
 ::mtm::mythirdmail
-::jl::jupyter-lab
-
-; hot string, for useful things
+::tat::TaylorAndTony
+::jlab::jupyter-lab
 ::pno::13285462173
 ::doyi:: doyijian@163.com
 
@@ -49,11 +45,10 @@ Return
 >#g:: Run, gif
 >#v:: Run, code
 >#p:: Run, ps
->#t:: Run, tiwen
 >#s:: Run, sublime_text
 
 ; -------------------------------------
-;        Key monify area
+;        Key modify area
 ; -------------------------------------
 
 ; bind Ctrl+C, Ctrl+V to mouse buttons
@@ -63,7 +58,7 @@ Return
 ; other operations to perform Ctrl+C, Ctrl+V 
 ~LButton & c:: Send ^c
 ~LButton & v:: Send ^v
-~LButton & MButton:: Send ^s
+~LButton & MButton:: Send ^v
 ~RButton & MButton:: Send ^v
 ; Use MButton to perform like Ctrl
 ~MButton & s:: Send ^s
