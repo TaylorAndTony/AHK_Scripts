@@ -28,6 +28,8 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ::mtm::mythirdmail
 ::tat::TaylorAndTony
 ::jlab::jupyter-lab
+::chorew::chore: whatever
+::u8::utf-8
 ::pno::13285462173
 ::doyi:: doyijian@163.com
 
@@ -76,7 +78,6 @@ Return
 >+ScrollLock:: Send 8
 >+Pause:: Send 9
 >+BackSpace:: Send 0
->+Up:: send .
 ; left alt
 <!,:: send 1
 <!.:: send 2
@@ -88,3 +89,7 @@ Return
 <!o:: send 8
 <!p:: send 9
 <!m:: send 0
+
+; change the volume
+>+Up:: SoundSet, +2
+>+Down:: SoundSet, -2
